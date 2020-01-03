@@ -1,0 +1,23 @@
+{
+  "name": "wifi-time-loop",
+  "version": "1.0.0",
+  "description": "wifi-status-monitor",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "package": "electron-packager . 'Ping Monitor' --out ./releases --overwrite --icon ./assets/icons/mac/ping.icns",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "buidl": {
+    "appId": "me.shawn.wifi-time-loop",
+    "icon": "./assets/icons/mac/ping.icns"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-cmd": "^3.0.0"
+  },
+  "devDependencies": {
+    "electron": "^7.1.7"
+  }
+}
